@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.pyd
+
+# Virtual environments
+venv/
+env/
+
+# Django migrations
+**/migrations/
+db.sqlite3
+
+# Byte-compiled / logs
+*.log
+*.pot
+*.pyc
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# FAISS + Doc store
+*.pkl
+*.idx
+core/doc_store/
+
+# Coverage / testing
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# Environment variables
+.env
