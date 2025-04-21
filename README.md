@@ -1,6 +1,6 @@
-#  Simple RAG API — Django + FAISS
+#  Simple RAG API
 
-This project implements a minimal **Retrieval-Augmented Generation (RAG)** backend using Django, FAISS, and sentence-transformers. It supports ingesting documents, querying them semantically using cosine similarity, and managing the vector store via reset operations.
+This project implements a minimal **Retrieval-Augmented Generation (RAG)** backend using Django REST framework, FAISS, and sentence-transformers. It supports ingesting documents, querying them semantically using cosine similarity, and managing the vector store via reset operations.
 
 ---
 
